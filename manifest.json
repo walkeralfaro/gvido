@@ -1,0 +1,27 @@
+{
+  "name": "gvido",
+  "displayName": "GVIDO SDD Framework",
+  "description": "Spec-Driven Development (SDD) framework for OpenCode",
+  "version": "0.2.0",
+  "targetEngine": "opencode",
+  "targetDirectory": ".opencode",
+  "workflow": [
+    "0. Governance (AGENTS.md, constitution.md)",
+    "1. Specification (spec.md)",
+    "2. Clarification (spec.md audit)",
+    "3. Planning (plan.md)",
+    "4. Tactics (tasks.md)",
+    "5. Execution (TDD Code + Tests)",
+    "6. Verification (Requirements vs Tests trace)"
+  ],
+  "skills": [
+    "sdd-agent",
+    "sdd-constitution",
+    "sdd-spec",
+    "sdd-clarify",
+    "sdd-plan",
+    "sdd-tasks",
+    "sdd-execute",
+    "sdd-verify"
+  ]
+}
