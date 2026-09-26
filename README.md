@@ -12,7 +12,7 @@ GVIDO estructura el ciclo de vida del desarrollo en 7 etapas progresivas:
 
 ```mermaid
 flowchart TD
-    A["<b>0. CONTEXTO</b> (AGENTS.md: GOBERNANZA)"]
+    Z["<b>0. CONTEXTO</b> (AGENTS.md: GOBERNANZA)"]
     A["<b>1. ESPECIFICACIÓN</b> (spec.md: El QUÉ y POR QUÉ)"]
     B["<b>2. CLARIFICACIÓN</b> (spec.md: Auditoría y pulido)"]
     C["<b>3. PLANIFICACIÓN</b> (plan.md: El CÓMO, arquitectura, datos)"]
@@ -20,6 +20,7 @@ flowchart TD
     E["<b>5. EJECUCIÓN</b> (Código + Tests: TDD por tarea/fase)"]
     F["<b>6. VERIFICACIÓN</b> (Veredicto: Trazabilidad RF vs Tests)"]
 
+    Z --> A
     A --> B
     B --> C
     C --> D
